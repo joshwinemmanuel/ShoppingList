@@ -1,5 +1,12 @@
+
+@media (max-width: 460px) {
+  body {
+    background-color: #232323;
+  }
+}
+
 .app {
-  max-width: 350px;
+  max-width: 400px;
   margin: 20px auto;
   padding: 20px;
   background-color: #232323;
