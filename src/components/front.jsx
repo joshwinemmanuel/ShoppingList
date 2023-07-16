@@ -28,7 +28,7 @@ const App = () => {
     <div className='app'>
       <h1>Shopping List</h1>
       <div className="input-container">
-      <input type="text" maxlength="14" value={itemName} onChange={handleInputChange}  placeholder="Enter an item" />
+      <input type="text" maxlength="10" value={itemName} onChange={handleInputChange}  placeholder="Enter an item" />
       <button onClick={handleAddItem}>Add Item</button>
       </div>
       <ShoppingList  items={items} onRemoveItem={handleRemoveItem}/>
